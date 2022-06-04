@@ -1,0 +1,12 @@
+title SDI to SKI
+style wardley
+
+anchor Bottom 40% [0.95,0.5]
+component SDI [0.8,0.7]
+component SKI [0.9,0.1]
+
+Bottom 40% -> SKI
+SDI -> SKI
+
+component Digitisation [0.75,0.6]
+SDI -> Digitisation

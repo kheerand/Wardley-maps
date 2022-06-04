@@ -1,0 +1,48 @@
+title Controlled Vocabulary Landscape
+
+evolution Genisis/Novell->Divergent/Emerging->Convergent/Good->Stable/Best
+y-axis Visbility to user->Less Visbility->More Visbility
+
+component Tooling [0.9, 0.08]
+// ecosystem Tooling [0.9, 0.08]
+evolve Tooling 0.50
+
+component persistent ID [0.80, 0.31]
+evolve persistent ID 0.45 label [-5, 14]
+
+component Vocab governance [0.50, 0.42] label [13, -26] 
+// component Vocab governance [0.50, 0.42] label [13, -26] inertia
+pipeline Vocab governance [0.01, 0.9]
+evolve Vocab governance 0.7 label [15, -27]
+
+component Publishing vocabs [0.7, 0.48] label [2, -25]
+pipeline Publishing vocabs [0.15, 0.75]
+evolve Publishing vocabs 0.7 label [1, -26]
+
+// component Persistant infrastructure [0.6, 0.32] label [-80, -26] inertia
+component Persistant infrastructure [0.6, 0.32] label [-80, -26] 
+pipeline Persistant infrastructure  [0.25, 0.6]
+
+component Content Publisher [0.4, 0.2] label [-37, 11]
+evolve Content Publisher 0.5
+
+component Content owner [0.3, 0.2]
+pipeline Content owner [0.01, 0.9]
+
+
+// note temporal logevity is needed for infra [0.61, 0.02]
+// note economies of scale for infra [0.58, 0.07]
+note Unchartered [0.98, 0.02]
+note Industrialised [0.98, 0.85]
+
+
+// ****************************
+// Relationships
+// ****************************
+// persistent ID->Tooling
+// Persistant infrastructure->persistent ID
+// Publishing vocabs->Persistant infrastructure
+// Vocab governance->Content Publisher
+// Vocab governance->Content SMEs
+// Content Publisher->Content SMEs
+// Vocab governance->Publishing vocabs

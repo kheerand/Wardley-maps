@@ -1,0 +1,10 @@
+title Conferences
+anchor participant [1,0.5]
+component Exchange ideas
+component network [0.9,0.5]
+participant -> Exchange ideas
+participant -> network
+
+component Conference [0.81, 0.71]
+Conference -> Exchange ideas
+Conference -> network

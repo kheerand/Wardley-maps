@@ -1,0 +1,38 @@
+title International collaboration Post COVID-19 - The future
+y-axis ->Invisible->Visible
+evolution novel/less accepted->->->common/accepted
+
+
+// Post COVID map - future
+component researcher [0.99,0.5]
+component collaboration [0.94, 0.53]
+collaboration->researcher
+
+component face-2-face [0.78, 0.37]
+face-2-face -> collaboration
+component virtual [0.81, 0.78]
+virtual -> collaboration
+
+component travel [0.64, 0.51] 
+travel->face-2-face
+component accommodation [0.59, 0.34] label [-12, 15]
+accommodation->face-2-face
+component travel time [0.60, 0.18] 
+travel time->face-2-face
+
+// Tools
+component tools [0.70, 0.83] label [13, 1]
+tools->virtual
+component competence [0.73, 0.73] label [-81, 7]
+competence->virtual
+component practices [0.67, 0.73] label [11, 6]
+practices->virtual
+
+// evolve competence 0.71
+// evolve practices 0.8
+// evolve tools 0.9
+
+note ========================= [0.98, 0.77]
+note Post-COVID international  [0.97, 0.77]
+note collaboration in the future [0.955,0.77]
+note ========================= [0.94, 0.77]
