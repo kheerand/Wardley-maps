@@ -1,0 +1,48 @@
+title Controlled Vocabulary Value chain
+
+evolution Genisis/Novell->Divergent/Emerging->Convergent/Good->Stable/Best
+y-axis Visbility to user->Less Visbility->More Visbility
+
+anchor Vocab user (human) [1.00, 0.47] 
+anchor Vocab user (machine) [0.98, 0.27]
+
+// Components
+component Navigatable web site [0.91, 0.50] label [4, -23]
+component API endpoint [0.80, 0.7]
+component controlled vocab [0.72, 0.38] label [-55, -21]
+component Content Publisher [0.45, 0.19]
+component Content owner [0.05, 0.36]
+component Vocab discovery [0.85, 0.3]
+component Vocab tooling [0.32, 0.12] label [-65, 17]
+component Vocab Publishing Service [0.65, 0.48]
+component Persistant ID [0.59, 0.31] label [-5, 18]
+
+component Reference Vocab [0.23, 0.36] label [2, -27]
+pipeline Reference Vocab [0.01, 0.9]
+
+component Published Vocab governance [0.56, 0.182] label [15, -41]
+pipeline Published Vocab governance [0.01,0.9]
+
+component Reference Vocab governance [0.14, 0.1] label [15, -41]
+pipeline Reference Vocab governance [0.01,0.9]
+
+// Relationships
+Vocab user (human)->Navigatable web site
+Vocab user (human)-> Vocab discovery
+API endpoint -> Navigatable web site
+Vocab user (machine)-> API endpoint
+Vocab user (machine) -> Vocab discovery
+controlled vocab-> API endpoint
+controlled vocab -> Content Publisher
+controlled vocab -> Vocab Publishing Service
+Reference Vocab->controlled vocab
+Reference Vocab-> Reference Vocab governance
+Content Publisher-> Reference Vocab
+Content Publisher-> Vocab tooling
+Content owner-> Reference Vocab
+Content owner -> Reference Vocab governance
+Vocab Publishing Service -> Persistant ID
+Vocab Publishing Service -> Vocab tooling
+Vocab Publishing Service -> Published Vocab governance
+Vocab discovery -> Vocab Publishing Service
+Published Vocab governance -> Reference Vocab governance
