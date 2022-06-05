@@ -8,4 +8,7 @@ The initial map of controlled vocabulary landscape was created during this works
 
 Initial narrative from this can be found [here](https://docs.google.com/presentation/d/1DD6MHcA9HNfH35n-sAS7tryisNll45LmJy-m3UOjknw/edit?usp=sharing).
 
-<img src="./maps/Controlled Vocabularies.png">
+<img src="./maps/Controlled Vocabularies.png" width="50%">
+
+* [Explorations](./Explorations/README.md) - Explorations based on the maps
+* [Narratives](./Narratives/README.md) - Narratives I can tell based on the explorations of maps.
