@@ -26,6 +26,8 @@ pipeline Published Vocab governance [0.01,0.9]
 component Reference Vocab governance [0.14, 0.1] label [15, -41]
 pipeline Reference Vocab governance [0.01,0.9]
 
+component Persistant Infrastructure [0.49, 0.39]
+
 // Relationships
 Vocab user (human)->Navigatable web site
 Vocab user (human)-> Vocab discovery
@@ -44,5 +46,7 @@ Content owner -> Reference Vocab governance
 Vocab Publishing Service -> Persistant ID
 Vocab Publishing Service -> Vocab tooling
 Vocab Publishing Service -> Published Vocab governance
+Vocab Publishing Service -> Persistant Infrastructure
 Vocab discovery -> Vocab Publishing Service
 Published Vocab governance -> Reference Vocab governance
+Persistant ID -> Persistant Infrastructure
