@@ -4,4 +4,4 @@
 
 Looking at what insights the user value chain can provide.
 
-<img src="./[Explore] Controlled Vocabulary User value chain.png" width="50%">
+<img src="./[Explore] Controlled Vocabulary User value chain.png" width="100%">

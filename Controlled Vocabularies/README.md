@@ -18,10 +18,10 @@ Initial narrative from this can be found [here](https://docs.google.com/presenta
 
 This map looks the overall landscape of controlled vocabularies.
 
-<img src="./maps/Controlled Vocabularies.png" width="50%">
+<img src="./maps/Controlled Vocabularies.png" width="100%">
 
 ### Usage Value Chain
 
 This maps the value chain from the perspective of a user of the controlled vocabulary.
 
-<img src="./maps/Controlled Vocabulary Value chain.png" width="50%">
+<img src="./maps/Controlled Vocabulary Value chain.png" width="100%">
