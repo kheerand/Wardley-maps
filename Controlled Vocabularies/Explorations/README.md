@@ -1,0 +1,1 @@
+# This folder contains explorations from the maps I've created
