@@ -27,4 +27,4 @@ This maps the value chain from the perspective of a user of the controlled vocab
 <img src="./maps/Controlled Vocabulary Value chain.png" width="100%">
 
 
-© 2022 Kheeran Dharmawardena [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+© 2022 Kheeran Dharmawardena [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
