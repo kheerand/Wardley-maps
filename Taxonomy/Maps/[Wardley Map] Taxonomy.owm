@@ -1,0 +1,68 @@
+title Taxonomy
+evolution Genisis/Novell->Divergent/Emerging->Convergent/Good->Stable/Best
+y-axis Visbility to user->Less Visbility->More Visbility
+
+anchor Taxonomist [1.00, 0.40]
+
+component Resolve taxa [0.92, 0.34] label [-84, 4]
+component Publish taxa concept [0.87, 0.74]
+component Specimens [0.86, 0.61] label [-77, 5]
+component Taxa [0.76, 0.34] label [-37, 4]
+component Taxon name [0.71, 0.49] label [9, 7]
+component common name [0.70, 0.34] label [12, 2]
+component Names in legislation [0.70, 0.26] label [-53, -20]
+component Taxon name management [0.64, 0.43] label [4, -20]
+component Taxa management [0.63, 0.26] label [21, -18]
+component Taxa curator [0.56, 0.06] label [-42, -13]
+component Taxon name curator [0.58, 0.49]
+component Taxa management system [0.3, 0.10] label [-55, -7]
+component Taxon name management system [0.3, 0.33]
+
+
+Taxonomist->Resolve taxa
+Taxonomist->Publish taxa concept
+Resolve taxa->Specimens
+Resolve taxa->Publish taxa concept
+Taxa->Specimens
+Taxa->Publish taxa concept
+Taxa->Taxon name
+Taxa->Taxa management
+Taxon name->Taxon name management
+Taxon name management->Taxon name curator
+Taxon name curator->Community practices
+Community practices->Taxa management
+Names in legislation->Taxon name management
+common name->Taxon name management
+Taxa management->Taxa curator
+Taxa curator->Taxa management system
+Taxa curator->Taxon name management system
+Taxon name management system->Taxon name management
+Taxa management system->Taxa management
+Publish taxa concept->Taxa management
+Publish taxa concept->Taxon name
+
+
+component Community practices [0.5, 0.54] label [4, -26]
+pipeline Community practices [0.1,0.8]
+component Taxa curation [0.484,0.111] label [-31, 22]
+component Taxa naming [0.484,0.789] label [-37, 23]
+component Defining taxa [0.484,0.55] label [-29, 25]
+
+
+// ************************************
+// Biodiversity data curator Anchor
+// ************************************
+
+anchor Biodiversity data curator [1.01, 0.22]
+component Observation record [0.31, 0.64] label [13, -7]
+component Observation [0.22, 0.61] label [8, 4]
+component Species identification [0.19, 0.23] label [-40, -35]
+component Taxa matching [0.11, 0.23] label [-25, 19]
+
+Biodiversity data curator->Observation record
+Observation record->Observation
+Observation record->Species identification
+Species identification->Observation
+Species identification->Taxa matching
+Taxa matching->Taxa management system
+Taxa matching->Taxon name management system
