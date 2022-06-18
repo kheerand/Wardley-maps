@@ -26,5 +26,12 @@ This maps the value chain from the perspective of a user of the controlled vocab
 
 <img src="./maps/Controlled Vocabulary Value chain.png" width="100%">
 
+### Map of Vocabulary tooling
+
+This map tooling available for vocabulary management.  It takes the list of tooling compiled during the 2021 Down Under Dagstuhl workshop as input
+and maps the level of evolution in these tools.
+
+<img src="./maps/Controlled Vocabulary Tooling Landscape.png" width="100%">
+
 
 © 2022 Kheeran Dharmawardena [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
