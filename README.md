@@ -12,5 +12,6 @@ I use a combination of OnlineWardleyMaps and Draw.io to create and explore these
 * [Hydrogren Fuel](./Hydrogen%20fuel/README.md)
 * [International Collaboration](./International%20Collaboration/README.md)
 * [Cytrax for small businesses](./Cytrax%20for%20small%20businesses/README.md)
+* [Taxonomy](./Taxonomy/README.md)
 
-All work here is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) unless otherwise stated.
+All work here is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) unless otherwise stated.
