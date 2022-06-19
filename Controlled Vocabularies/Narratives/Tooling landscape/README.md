@@ -70,7 +70,7 @@ evolution.  It is very likely that tools are too bespoke to currently
 be considered as a threat to the three services providing *utility* style
 services.
 
-> Conclusion: There is limited climatic presures to the three products
+> **Conclusion:** There is limited climatic presures to the three products
 in the *utility* space to force them to evolve.
 
 
@@ -87,7 +87,8 @@ surprising that many of these tools are in the bespoke, custom built stages
 of its evolution.  This is where this group of people are good at,
 developing new prototypes, and evolving them to useful bespoke solutions.
 
->Conclusion: What is probably missing in the landscape are the *settler* type people within the right institutional mechanisms that enable them to be able
+> **Conclusion:** What is probably missing in the landscape are the *settler* 
+type people within the right institutional mechanisms that enable them to be able
 to take the custom-built, bespoke solutions and produce good products and
 evolve them into stable tools that can lower the barriers for a broader 
 number of people utilising these tools to develop, publish and maintain
