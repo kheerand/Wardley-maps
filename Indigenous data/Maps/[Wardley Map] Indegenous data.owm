@@ -1,0 +1,44 @@
+title Indigenous Data Governance and Management
+style wardley
+evolution Poorly understood->Increasing understanding -> Increasing education -> Well understood
+
+anchor First nation people [1.01, 0.39]
+
+component Sovereignty [0.93, 0.54]
+component Governance [0.89, 0.54] label [11, 1]
+
+component Values [0.81, 0.54]
+pipeline Values [0.40,0.7015]
+component Western values [0.7935, 0.69] label [-47, 18]
+component Indigenous values [0.7935, 0.4115] label [-3, 10]
+
+component Policies [0.73, 0.59]
+pipeline Policies [0.14,0.75]
+component Indigenous policies [0.713, 0.151] label [-1, 8]
+component Western policies [0.713, 0.739] label [-9, 8]
+
+component Institutions [0.65, 0.47]
+pipeline Institutions [0.14,0.75]
+component Indigenous institutions [0.633, 0.152] label [3, 9]
+component Western institutions [0.633, 0.739] label [-10, 8]
+
+First nation people->Sovereignty
+Values->Western values
+Values->Indigenous values
+Policies->Western policies
+Policies->Indigenous policies
+Institutions->Western institutions
+Institutions->Indigenous institutions
+Governance->Values
+Governance->Policies
+Governance->Institutions
+Sovereignty->Governance
+
+note Indigenous data sovereignty is the collection [0.10, 0.63]
+note of values, policies & institutions [0.08, 0.63]
+note Draw an outline of this in final map [0.06, 0.63]
+
+component Indigenous rights? [0.42, 0.05] label [15, -10]
+
+pioneers [0.82, 0.13, 0.58, 0.5]
+note Indigenous Data Sovereignty [0.825,0.13]
