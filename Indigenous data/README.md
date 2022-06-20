@@ -2,7 +2,7 @@
 
 The following map is an attempt to navigate the growing topic of indigenous data and indigenous data sovereignty.
 
-<img src="./maps/Indigenous Data Governance and Management.png" width="100%">
+<img src="./Maps/Indigenous Data Governance and Management.png" width="100%">
 
 ## Narratives
 

@@ -38,7 +38,7 @@ open data movement where data is to be openly shared.
 
 Caroll et. al.[[4](#_4)] provides a good comparison table of the different focuses of the different data principles.
 
-<img src="./resources/[diagram] Data principles comparison table.png" width="50%"><br>
+<img src="./resources/[diagram] Data principles comparison table.png" width="70%"><br>
 *Source: “The CARE Principles for Indigenous Data Governance.”[[4](#_4)]*
 
 
