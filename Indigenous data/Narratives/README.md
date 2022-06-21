@@ -4,7 +4,9 @@
 
 <img src="./resources/Indigenous Data Governance and Management.png" width="70%">
 
-Looking at the discourse that is happening around the place, it is of the type that is in Stage II of evolution where
+## Discorse about Indigenous Data
+
+Looking at the discourse that is happening around the place and in the literature reviewed, it is of the type that is in Stage II of evolution where
 it is focused around **awareness raising, building capability, construction**.
 
 <img src="./resources/[diagram] evolution discourse.png" width="40%">
