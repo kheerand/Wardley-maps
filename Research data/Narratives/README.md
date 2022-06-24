@@ -20,6 +20,6 @@ provider and the user and thus increasingly stronger measures are required to pr
 the two parties.  This is where CORETrust seal comes in to provide this level of trust by incorporating
 a thrid party to provide assurance of trust.
 
-<img src="./resources/Research data repositories.png" width="70%">
+<img src="./Resources/Research data repositories.png" width="70%">
 
 © 2022 Kheeran Dharmawardena [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
