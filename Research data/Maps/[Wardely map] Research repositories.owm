@@ -1,0 +1,11 @@
+title Research data repositories
+style wardley
+
+component research data repositories [0.6,0.5] label [9, -65]
+pipeline research data repositories [0.01,0.99]
+
+pioneers [0.62, 0.28, 0.53, 0.55]
+townplanners [0.62, 0.45, 0.53, 0.99]
+
+note TRUST principles [0.54, 0.29]
+note CORETrust seal [0.54, 0.88]
