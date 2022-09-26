@@ -5,6 +5,7 @@ I use a combination of OnlineWardleyMaps and Draw.io to create and explore these
 
 ## Maps
 
+* [Biodiversity Market](./Biodiversity%20markets/README.md)
 * [Citizen Science](./Citizen%20Science/README.md)
 * [Controlled Vocabularies](./Controlled%20Vocabularies/README.md)
 * [Cytrax for small businesses](./Cytrax%20for%20small%20businesses/README.md)
