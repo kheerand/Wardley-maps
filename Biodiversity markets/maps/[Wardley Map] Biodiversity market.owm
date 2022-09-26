@@ -1,0 +1,74 @@
+title Biodiversity Market
+evolution Genisis/Novell->Divergent/Emerging->Convergent/Good->Stable/Best
+
+anchor Biodiversity [0.99, 0.34]
+anchor Landholders [0.99, 0.52]
+
+component Habitat [0.96, 0.35]
+
+Biodiversity->Habitat
+
+component Land [0.92, 0.39] label [-44, 0]
+
+Landholders->Land
+Habitat->Land
+
+// Landholder groups
+component Govt Landholders [0.84, 0.8]
+component Private Landholders [0.83, 0.48] label [15, -16]
+component Commercial Landholders [0.84, 0.31] label [-76, -21]
+Land->Commercial Landholders
+Land->Private Landholders
+Land->Govt Landholders
+
+component Biodiversity Projects [0.70, 0.16] label [-73, -11]
+component Biodiversity certificates [0.75, 0.09] label [-72, -15]
+Private Landholders->Biodiversity Projects
+Private Landholders->Biodiversity certificates
+Commercial Landholders->Biodiversity certificates
+Commercial Landholders->Biodiversity Projects
+
+component public register [0.75, 0.47]
+Private Landholders->public register
+Commercial Landholders->public register
+
+component standards [0.63, 0.12] label [-67, 4]
+note (Note 1) [0.615,0.065]
+note Note 1: [0.125,0.02]
+note ______ [0.125,0.02]
+note 1) biodiv integrity standards [0.11, 0.02]
+note 2) project protocols [0.10, 0.02]
+note 3) data standards (missing) [0.09, 0.02]
+note 4) survey protocols (missing) [0.08,0.02]
+
+component Advisory committees [0.61, 0.28] label [-2, -33]
+standards->Advisory committees
+Biodiversity Projects->standards
+
+component Monitoring [0.59, 0.26] label [12, 7]
+component Conditions [0.58, 0.39] label [11, 4]
+component Reporting [0.64, 0.49]
+Reporting->Biodiversity Projects
+Reporting->Monitoring
+Reporting->Conditions
+Biodiversity Projects->Conditions
+Monitoring->standards
+
+// These elements are currently missing from the proposed
+// work by the government.
+component Data [0.48, 0.43]
+component Surveys [0.33, 0.54]
+component Survey protocols [0.28, 0.43]
+component ABIS [0.39, 0.54]
+Surveys->Survey protocols
+Survey protocols->ABIS
+Data->ABIS
+Data->Surveys
+Monitoring->Data
+Survey protocols->standards
+ABIS->standards
+component Compliance & assurance system [0.48, 0.14] label [7, -20]
+public register->Compliance & assurance system
+Reporting->Compliance & assurance system
+Biodiversity Projects->Compliance & assurance system
+Biodiversity certificates->Compliance & assurance system
