@@ -4,7 +4,8 @@ The 2021 State of the Environment Report found a significant investment in conse
 
 In September 2022 the Government indicated it will be looking to establish a biodiversity market within Australia.
 
-In this map I am exploring what it means to have a biodiversity market, what the influence points are etc.
+In this map I am exploring what it means to have a biodiversity market, what the influence points are etc.  The map is inacurate and contains many assumptions and
+my own biases as it has not been challenged by many others yet.
 
 * [Explorations](./Explorations/README.md) - Explorations based on the maps
 * [Narratives](./Narratives/README.md) - Narratives I can tell based on the explorations of maps.
