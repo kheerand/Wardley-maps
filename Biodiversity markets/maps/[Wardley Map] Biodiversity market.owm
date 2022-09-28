@@ -28,9 +28,19 @@ Private Landholders->Biodiversity certificates
 Commercial Landholders->Biodiversity certificates
 Commercial Landholders->Biodiversity Projects
 
-component public register [0.75, 0.47]
+component public register [0.75, 0.47] label [-59, -5]
 Private Landholders->public register
 Commercial Landholders->public register
+
+component Trading platform [0.79, 0.52]
+component Environmental infomation [0.71, 0.31] label [17, -15]
+component Biodiversity Data Repository [0.54, 0.45] label [12, -12]
+component Other env data systems [0.55, 0.38] label [-58, -6]
+public register->Trading platform
+Trading platform->Environmental infomation
+Environmental infomation->Biodiversity Data Repository
+Biodiversity Data Repository->Data
+Environmental infomation->Other env data systems
 
 component standards [0.63, 0.12] label [-67, 4]
 note (Note 1) [0.615,0.065]
@@ -47,19 +57,20 @@ Biodiversity Projects->standards
 
 component Monitoring [0.59, 0.26] label [12, 7]
 component Conditions [0.58, 0.39] label [11, 4]
-component Reporting [0.64, 0.49]
+component Reporting [0.64, 0.45] label [9, 5]
 Reporting->Biodiversity Projects
 Reporting->Monitoring
 Reporting->Conditions
 Biodiversity Projects->Conditions
 Monitoring->standards
+Monitoring->Survey protocols
 
 // These elements are currently missing from the proposed
 // work by the government.
-component Data [0.48, 0.43]
-component Surveys [0.33, 0.54]
+component Data [0.48, 0.43] label [14, 5]
+component Surveys [0.33, 0.54] label [10, 6]
 component Survey protocols [0.28, 0.43]
-component ABIS [0.39, 0.54]
+component ABIS [0.39, 0.54] label [10, 4]
 Surveys->Survey protocols
 Survey protocols->ABIS
 Data->ABIS
@@ -67,7 +78,7 @@ Data->Surveys
 Monitoring->Data
 Survey protocols->standards
 ABIS->standards
-component Compliance & assurance system [0.48, 0.14] label [7, -20]
+component Compliance & assurance system [0.48, 0.14] label [-71, -11]
 public register->Compliance & assurance system
 Reporting->Compliance & assurance system
 Biodiversity Projects->Compliance & assurance system
