@@ -1,0 +1,95 @@
+title Controlled Vocabulary Tooling Landscape
+
+// evolution Genisis/Novell->Divergent/Emerging->Convergent/Good->Stable/Best
+y-axis .->.->.
+note Unchartered [0.98, 0.02]
+note Industrialised [0.98, 0.85]
+
+// Authoring tools
+component authoring [0.9,0.4]
+pipeline authoring [0.16,0.8081]
+component skosmos [0.885,0.45] label [-4, 23]
+component excel2RDF [0.885,0.2] label [-64, 23]
+component VocBench [0.887,0.22] label [-2, -18]
+component iQVoc [0.882,0.218] label [-2, 20]
+component TopBraid composer [0.885,0.8] label [-6, 16]
+component TopBraid EDG [0.885,0.8] label [-6, -16]
+component PoolParty [0.885,0.75] label [-57, 23]
+component SKOS Play! [0.889,0.21] label [-65, -31]
+component Protege [0.882,0.208] label [-2, 35]
+component Atramhasis [0.882,0.188] label [-2, -55]
+component Ontoserver [0.887,0.183] label [-2, -65]
+component VocExcel [0.889,0.189] label [-52, 45]
+component WebProtege [0.885,0.73] label [-72, -20]
+component RVA [0.885,0.77] label [-0, -15]
+component TemaTres [0.885,0.18] label [-0, -15]
+
+// Discovery tools
+component discovery [0.7,0.4] label [4, -18]
+pipeline discovery [0.17,0.8081]
+component skosmos [0.685,0.45] label [-24, 23]
+component SISSVoc [0.685,0.25] label [-4, 23]
+component iQVoc [0.685,0.218] label [-2, -18]
+component TopBraid EDG [0.685,0.8] label [-6, -16]
+component PoolParty [0.685,0.75] label [-57, 23]
+component SKOS Play! [0.685,0.21] label [-65, -31]
+component Atramhasis [0.685,0.188] label [-2, -55]
+component Ontoserver [0.687,0.183] label [-2, -65]
+component RVA [0.685,0.77] label [-0, -15]
+component VocPrez [0.687,0.193] label [-5, 25]
+component BARTOC [0.687,0.43] label [-5, -15]
+
+// Display tools
+component display [0.55,0.4]
+pipeline display [0.17,0.7785]
+component skosmos [0.535,0.45] label [-24, 23]
+component SISSVoc [0.535,0.25] label [-4, 23]
+component iQVoc [0.535,0.218] label [-2, -18]
+component PoolParty [0.535,0.75] label [-57, 23]
+component SKOS Play! [0.535,0.21] label [-65, -31]
+component Atramhasis [0.535,0.188] label [-2, -55]
+component Ontoserver [0.537,0.183] label [-55, 25]
+component WebProtege [0.535,0.72] label [-72, -20]
+component RVA [0.535,0.77] label [-0, -15]
+component VocPrez [0.537,0.193] label [-5, 35]
+component TemaTres [0.535,0.18] label [-0, -15]
+
+// Tooling for APIs for vocabs
+component apis [0.4,0.4]
+pipeline apis [0.17,0.8081]
+component skosmos [0.385,0.45] label [-24, 23]
+component SISSVoc [0.385,0.25] label [-4, 23]
+component iQVoc [0.385,0.218] label [-2, -18]
+component TopBraid EDG [0.385,0.8] label [-6, -16]
+component PoolParty [0.385,0.75] label [-57, 23]
+component SKOS Play! [0.385,0.21] label [-65, -31]
+component Atramhasis [0.385,0.188] label [-2, -55]
+component Ontoserver [0.387,0.183] label [-55, 25]
+component RVA [0.385,0.77] label [-0, -15]
+component VocPrez [0.389,0.193] label [-5, 35]
+component BARTOC [0.385,0.43] label [-5, -15]
+
+// Tooling for governance of vocabs
+component governance tools [0.25,0.4] label [-5, -29]
+pipeline governance tools [0.17,0.8081]
+component skosmos [0.235,0.45] label [-24, 23]
+component TopBraid EDG [0.235,0.8] label [-6, -16]
+component PoolParty [0.235,0.75] label [-57, 23]
+component Atramhasis [0.235,0.188] label [-2, -25]
+component Ontoserver [0.237,0.183] label [-55, 25]
+component WebProtege [0.235,0.73] label [-72, -20]
+component RVA [0.235,0.77] label [-0, -15]
+
+// Tooling for validation of vocabs
+component validation [0.1,0.22]
+pipeline validation [0.17,0.25]
+component Protege [0.085,0.208] label [-2, 25]
+component qSKOS [0.085,0.197] label [-40, -20]
+component Skosify [0.082,0.20] label [-40, 20]
+component VocPub [0.089,0.21] label [-0, 44]
+
+
+note NOTE: [0.12,0.71]
+note Many on Github have been clasified as [0.105, 0.71]
+note custom, but could also be considered [0.09, 0.71]
+note Product [0.075,0.71]
