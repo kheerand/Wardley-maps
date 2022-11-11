@@ -10,10 +10,10 @@ evolve Tooling 0.50
 component persistent ID [0.80, 0.31]
 evolve persistent ID 0.45 label [-5, 14]
 
-component Vocab governance [0.50, 0.42] label [13, -26] 
-// component Vocab governance [0.50, 0.42] label [13, -26] inertia
+// component Vocab governance [0.50, 0.21] label [13, -26] 
+component Vocab governance [0.50, 0.21] label [13, -26] inertia
 pipeline Vocab governance [0.01, 0.9]
-evolve Vocab governance 0.7 label [15, -27]
+evolve Vocab governance 0.45 label [15, -27]
 
 component Publishing vocabs [0.7, 0.48] label [2, -25]
 pipeline Publishing vocabs [0.15, 0.75]

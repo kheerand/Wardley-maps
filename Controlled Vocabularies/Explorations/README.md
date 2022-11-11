@@ -6,4 +6,6 @@ Looking at what insights the user value chain can provide.
 
 <img src="./[Explore] Controlled Vocabulary User value chain.png" width="100%">
 
-© 2022 Kheeran Dharmawardena [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+© 2022 Kheeran Dharmawardena [CC BY-SA 4.0][def]
+
+[def]: https://creativecommons.org/licenses/by-sa/4.0/
